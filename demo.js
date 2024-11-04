@@ -39,7 +39,7 @@ function likeCallback(e) {
 // STEP 1. That's Pillar 2, event handling. Uncomment this code:
 
 for (const glyph of articleHearts) {
-glyph.addEventListener("click", likeCallback);
+  glyph.addEventListener("click", likeCallback);
 }
 
 // STEP 4: 
